@@ -1,0 +1,20 @@
+Pillow == 10.*
+PyPDF2 == 3.0.*
+gensim == 4.3.*
+ipython == 8.12.*
+kdbai_client == 0.0.3
+matplotlib == 3.7.*
+nltk == 3.7
+numpy == 1.24.*
+openai == 0.28.*
+pandas == 1.5.*
+pypdf == 3.16.*
+scikit-learn == 1.2.*
+seaborn == 0.12.*
+sentence-transformers == 2.2.*
+spacy == 3.6.*
+tensorflow == 2.13.*
+tiktoken == 0.5.*
+tqdm == 4.65.*
+transformers == 4.33.*
+git+https://github.com/KxSystems/langchain.git@KDB.AI#subdirectory=libs/langchain
