@@ -2,7 +2,7 @@ Pillow == 10.*
 PyPDF2 == 3.0.*
 gensim == 4.3.*
 ipython == 8.12.*
-kdbai_client == 0.0.3
+kdbai_client == 0.1.*
 matplotlib == 3.7.*
 nltk == 3.7
 numpy == 1.24.*
