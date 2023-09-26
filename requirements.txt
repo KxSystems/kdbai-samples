@@ -9,7 +9,6 @@ numpy == 1.24.*
 openai == 0.28.*
 pandas == 1.5.*
 pypdf == 3.16.*
-scikit-learn == 1.2.*
 sentence-transformers == 2.2.*
 tensorflow == 2.13.*
 tiktoken == 0.5.*
