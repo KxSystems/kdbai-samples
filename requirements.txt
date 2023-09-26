@@ -4,7 +4,7 @@ gensim == 4.3.*
 ipython == 8.12.*
 kdbai_client == 0.1.*
 matplotlib == 3.7.*
-nltk == 3.7
+nltk == 3.8.*
 numpy == 1.24.*
 openai == 0.28.*
 pandas == 1.5.*
@@ -12,7 +12,6 @@ pypdf == 3.16.*
 scikit-learn == 1.2.*
 seaborn == 0.12.*
 sentence-transformers == 2.2.*
-spacy == 3.6.*
 tensorflow == 2.13.*
 tiktoken == 0.5.*
 tqdm == 4.65.*

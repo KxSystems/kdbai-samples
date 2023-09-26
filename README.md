@@ -48,5 +48,19 @@ At this time, the repository contains the following samples:
 
 ## Setup
 
+### Install Python Packages
+
 To install the relevent packages needed to run all of the samples contained in this repository, run the following:
-```pip install -r requirements.txt```
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+### Install English Sentence Tokeniser
+
+Open a Python Interpreter using the command `python3` and run the following:
+
+    ```python
+    import nltk
+    nltk.download("punkt")
+    ```
