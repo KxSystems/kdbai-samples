@@ -48,9 +48,18 @@ At this time, the repository contains the following samples:
 
 ## Setup
 
+This section details the setup steps required to run these samples locally on your machine.
+
+### Prerequisites
+
+This setup guide assumes the following:
+  1. You are using a Unix terminal or similar
+  1. You have `python` >= 3.8 installed
+  1. You have `pip` installed
+
 ### Install Python Packages
 
-To install the relevent packages needed to run all of the samples contained in this repository, run the following:
+1. Use the `requirements.txt` file in the repository to install the relevent Python packages needed to run all of the samples:
 
     ```bash
     pip install -r requirements.txt
@@ -58,9 +67,35 @@ To install the relevent packages needed to run all of the samples contained in t
 
 ### Install English Sentence Tokeniser
 
-Open a Python Interpreter using the command `python3` and run the following:
+1. Open a Python interpreter:
+
+    ```bash
+    python3
+    ```
+
+1. Install the `punkt` data resouce for the `nltk` Python package:
 
     ```python
     import nltk
     nltk.download("punkt")
     ```
+
+1. Exit the Python interpreter:
+
+    ```python
+    exit()
+    ```
+
+### View & Execute The Samples
+
+1. Run a jupter notebook session:
+
+    ```bash
+    jupyter notebook --no-browser
+    ```
+
+    This will load up the jupyter session in the background and display a URL on screen for you.
+
+1. Paste this URL into your browser
+
+    This will bring up the samples for you to interact with.
