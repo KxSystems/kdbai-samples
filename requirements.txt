@@ -1,5 +1,6 @@
 Pillow == 10.*
 gensim == 4.3.*
+hdbscan >= 0.8.30
 ipython == 8.12.*
 kdbai_client == 0.1.*
 matplotlib == 3.7.*
@@ -13,4 +14,5 @@ tensorflow == 2.13.*
 tiktoken == 0.5.*
 tqdm == 4.65.*
 transformers == 4.33.*
+umap-learn >= 0.5
 git+https://github.com/KxSystems/langchain.git@KDB.AI#subdirectory=libs/langchain
