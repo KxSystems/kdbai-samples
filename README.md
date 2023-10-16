@@ -99,3 +99,11 @@ This setup guide assumes the following:
 1. Paste this URL into your browser
 
     This will bring up the samples for you to interact with.
+
+
+## Dataset Disclaimer
+
+In this repository, we may make available to you certain datasets for use with the Software.
+You are not obliged to use such datasets (with the Software or otherwise), but any such use is at your own risk.
+Any datasets that we may make available to you are provided “as is” and without any warranty, including as to their accuracy or completeness.
+We accept no liability for any use you may make of such datasets.
