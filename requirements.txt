@@ -1,18 +1,11 @@
-Pillow == 10.*
-gensim == 4.3.*
-hdbscan >= 0.8.30
-ipython == 8.12.*
-kdbai_client == 0.1.*
-matplotlib == 3.7.*
-nltk == 3.8.*
-numpy == 1.24.*
-openai == 0.28.*
-pandas == 1.5.*
-pypdf == 3.16.*
-sentence-transformers == 2.2.*
-tensorflow == 2.13.*
-tiktoken == 0.5.*
-tqdm == 4.65.*
-transformers == 4.33.*
+gensim >= 4.3
+jupyter >= 1.0
+kdbai_client >= 0.1.0
+matplotlib >= 3.7
+openai >= 0.28
+pypdf >= 3.0
+sentence-transformers >= 2.2
+tensorflow >= 2.10
+tiktoken >= 0.5
 umap-learn >= 0.5
 git+https://github.com/KxSystems/langchain.git@KDB.AI#subdirectory=libs/langchain
