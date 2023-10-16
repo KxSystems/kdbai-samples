@@ -43,7 +43,7 @@ At this time, the repository contains the following samples:
 ## What Platforms Does KDB.AI Integrate With?
 
 - [ChatGPT Retrieval Plugin](https://github.com/KxSystems/chatgpt-retrieval-plugin/blob/KDB.AI/examples/providers/kdbai/ChatGPT_QA_Demo.ipynb): Example showing a question and answer session using a ChatGPT retrieval plugin using KDB.AI Vector Database.
-- [Langchain](https://github.com/KxSystems/langchain/blob/KDB.AI/docs/extras/integrations/vectorstores/kdbai.ipynb): Example showing a question and answer session using a Langchain integration with the KDB.AI Vector Database.
+- [Langchain](https://github.com/KxSystems/langchain/blob/KDB.AI/docs/docs/integrations/vectorstores/kdbai.ipynb): Example showing a question and answer session using a Langchain integration with the KDB.AI Vector Database.
 
 
 ## Setup
