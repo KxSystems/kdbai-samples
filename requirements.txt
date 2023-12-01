@@ -1,6 +1,6 @@
 gensim >= 4.3
 jupyter >= 1.0
-kdbai_client >= 0.1.0
+kdbai_client >= 0.1.2
 matplotlib >= 3.7
 openai >= 0.28
 pypdf >= 3.0
