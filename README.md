@@ -2,8 +2,12 @@
 
 The example [KDB.AI](https://kdb.ai) samples provided aim to demonstrate examples of the use of the KDB.AI vector database in a number of scenarios ranging from getting started guides to industry specific use-cases.
 
-In order to execute these notebooks, you will need to sign up for access to the [KDB.AI Cloud Portal](https://trykdb.kx.com/kdbai/signup/). Here, you will be given a Entrypoint URL and an API Key which can be used to connect to a KDB.AI Cloud session and execute the code against.
+KDB.AI comes in two offerings:
 
+1. [KDB.AI Cloud](https://trykdb.kx.com/kdbai/signup/) - For experimenting with smaller generative AI projects with a vector database in our cloud.
+2. [KDB.AI Server](https://trykdb.kx.com/kdbaiserver/signup/) - For evaluating large scale generative AI applications on-premises or on your own cloud provider.
+
+Depending on which you use there will be different setup steps and connection details required. You can signup at the links above and see the notebooks for connection inctructions.
 
 ## What is KDB.AI?
 
