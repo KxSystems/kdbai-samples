@@ -69,6 +69,16 @@ This setup guide assumes the following:
     pip install -r requirements.txt
     ```
 
+> [!TIP]
+> <b>Running out of disk space?</b>
+> By default, pytorch installs both GPU and CPU related packages.
+> This repo does not require a GPU and hence, will only make use of the CPU related packages.
+> By running the below install command, you will only install the CPU related packages and save approximately 1.5GB of disk space.
+> This command is optional and if run, should be run prior to the above install command.
+> ```bash
+> pip install torch --index-url https://download.pytorch.org/whl/cpu
+> ```
+
 ### Install English Sentence Tokeniser
 
 1. Open a Python interpreter:
