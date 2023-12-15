@@ -44,6 +44,7 @@ At this time, the repository contains the following samples:
 - [Recommendation System](music_recommendation): Music Recommendation on Spotify Data.
 - [Pattern Matching](pattern_matching): Pattern Matching on Sensor Data.
 - [Retreival Augmented Generation with LangChain](retrieval_augmented_generation): Retrieval Augmented Generation (RAG) with LangChain.
+- [Retreival Augmented Generation Evaluation with LangChain](retrieval_augmented_generation_evaluation): Retrieval Augmented Generation (RAG) Evaluation with LangChain.
 - [Sentiment Analysis](sentiment_analysis): Sentiment Analysis on Disneyland Resort Reviews.
 
 
