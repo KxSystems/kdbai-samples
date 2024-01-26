@@ -8,4 +8,5 @@ sentence-transformers >= 2.2
 tensorflow >= 2.10
 tiktoken >= 0.5
 umap-learn >= 0.5
-git+https://github.com/KxSystems/langchain.git@KDB.AI#subdirectory=libs/langchain
+langchain
+langchain_openai
