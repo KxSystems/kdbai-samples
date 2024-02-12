@@ -41,6 +41,9 @@ At this time, the repository contains the following samples:
 
 - [Document Search](document_search): Semantic Search on PDF Documents.
 - [Image Search](image_search): Image Search on Brain MRI Scans.
+- [Metadata Filtering](metadata_filtering): Metadata Filtering to increase search speed and accuracy.
+- [Multimodal RAG ImageBind](multimodal_RAG_ImageBind): Multimodal RAG with images and text.
+- [Multimodal RAG Unified Text](multimodal_RAG_unified_test): Multimodal RAG with images descriptions and text.
 - [Recommendation System](music_recommendation): Music Recommendation on Spotify Data.
 - [Pattern Matching](pattern_matching): Pattern Matching on Sensor Data.
 - [Retreival Augmented Generation with LangChain](retrieval_augmented_generation): Retrieval Augmented Generation (RAG) with LangChain.
