@@ -39,6 +39,8 @@ At this time, the repository contains the following samples:
 
 ### Use-Cases
 
+- [TSS_non_transformed](TSS_non_transformed): Temporal Similarity Search (Non Transformed) time series search (KDB.AI Server Version Only).
+- [TSS_transformed](TSS_transformed): Temporal Similarity Search (Transformed) for time series search (KDB.AI Server Version Only). 
 - [Document Search](document_search): Semantic Search on PDF Documents.
 - [Image Search](image_search): Image Search on Brain MRI Scans.
 - [Metadata Filtering](metadata_filtering): Metadata Filtering to increase search speed and accuracy.
