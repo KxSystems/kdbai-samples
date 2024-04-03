@@ -74,7 +74,8 @@ This setup guide assumes the following:
 
 ### Install Python Packages
 
-1. Use the `requirements.txt` file in the repository to install the relevent Python packages needed to run all of the samples:
+1. Use the `requirements.txt` file in the repository to see the relevent Python packages needed to run all of the samples:
+   (Note that the necessary pip installs are at the beginning of each notebook as well.)
 
     ```bash
     pip install -r requirements.txt
@@ -90,26 +91,6 @@ This setup guide assumes the following:
 > pip install torch --index-url https://download.pytorch.org/whl/cpu
 > ```
 
-### Install English Sentence Tokeniser
-
-1. Open a Python interpreter:
-
-    ```bash
-    python3
-    ```
-
-1. Install the `punkt` data resouce for the `nltk` Python package:
-
-    ```python
-    import nltk
-    nltk.download("punkt")
-    ```
-
-1. Exit the Python interpreter:
-
-    ```python
-    exit()
-    ```
 
 ### View & Execute The Samples
 
