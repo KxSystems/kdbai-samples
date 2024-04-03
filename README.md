@@ -39,10 +39,11 @@ At this time, the repository contains the following samples:
 
 ### Use-Cases
 
-- [TSS_non_transformed](TSS_non_transformed): Temporal Similarity Search (Non Transformed) time series search (KDB.AI Server Version Only).
-- [TSS_transformed](TSS_transformed): Temporal Similarity Search (Transformed) for time series search (KDB.AI Server Version Only). 
+- [TSS_non_transformed](TSS_non_transformed): Temporal Similarity Search (Non Transformed) time series search.
+- [TSS_transformed](TSS_transformed): Temporal Similarity Search (Transformed) for time series search. 
+- [LlamaIndex Advanced RAG](LlamaIndex_advanced_RAG): Demonstration on how to use LlamaIndex with KDB.AI for RAG.
 - [Document Search](document_search): Semantic Search on PDF Documents.
-- [Hybrid Search](hybrid_search): Combine dense and sparse search to improve accuracy (KDB.AI Server Version Only).
+- [Hybrid Search](hybrid_search): Combine dense and sparse search to improve accuracy.
 - [Image Search](image_search): Image Search on Brain MRI Scans.
 - [Metadata Filtering](metadata_filtering): Metadata Filtering to increase search speed and accuracy.
 - [Multimodal RAG ImageBind](multimodal_RAG_ImageBind): Multimodal RAG with images and text.
