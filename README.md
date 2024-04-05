@@ -69,13 +69,13 @@ This section details the setup steps required to run these samples locally on yo
 
 This setup guide assumes the following:
   1. You are using a Unix terminal or similar
-  1. You have `python` >= 3.8 installed
-  1. You have `pip` installed
+  2. You have `python` >= 3.8 installed
+  3. You have `pip` installed
 
 ### Install Python Packages
 
-1. Use the `requirements.txt` file in the repository to see the relevent Python packages needed to run all of the samples:
-   (Note that the necessary pip installs are at the beginning of each notebook as well.)
+1. The necessary pip installs are at the beginning of each notebook.
+    (optional) To see a comprehensive list of requirements, see the `requirements.txt` file in the repository.
 
     ```bash
     pip install -r requirements.txt
