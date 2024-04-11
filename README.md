@@ -1,4 +1,4 @@
-![KDB.AI Logo](https://kdb.ai/images/logo-kdb.ai-black-bg.png)
+![KDB.AI Logo](https://kdb.ai/files/2024/01/kdbai-logo.svg)
 
 The example [KDB.AI](https://kdb.ai) samples provided aim to demonstrate examples of the use of the KDB.AI vector database in a number of scenarios ranging from getting started guides to industry specific use-cases.
 
