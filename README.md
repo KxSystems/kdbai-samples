@@ -42,6 +42,7 @@ At this time, the repository contains the following samples:
 - [TSS_non_transformed](TSS_non_transformed): Temporal Similarity Search (Non Transformed) time series search.
 - [TSS_transformed](TSS_transformed): Temporal Similarity Search (Transformed) for time series search. 
 - [LlamaIndex Advanced RAG](LlamaIndex_advanced_RAG): Demonstration on how to use LlamaIndex with KDB.AI for RAG.
+- [LlamaParse PDF RAG](LlamaParse_pdf_RAG): Use LlamaParse to extract embedded elements from a PDF and build a RAG pipeline.
 - [Document Search](document_search): Semantic Search on PDF Documents.
 - [Hybrid Search](hybrid_search): Combine dense and sparse search to improve accuracy.
 - [Image Search](image_search): Image Search on Brain MRI Scans.
@@ -74,22 +75,25 @@ This setup guide assumes the following:
 
 ### Install Python Packages
 
+> [!TIP]
+> <b>Running out of disk space?</b>
+> By default, pytorch installs both GPU and CPU related packages.
+> This repo does not require a GPU and hence, will only make use of the CPU related packages.
+> By running the below install command, you will only install the CPU related packages and save approximately 1.5GB of disk space.
+> This command is optional and if run, should be run at the beginning of the notebook.
+> ```bash
+> pip install torch --index-url https://download.pytorch.org/whl/cpu
+> ```
+
 1. The necessary pip installs are at the beginning of each notebook.
+
     (optional) To see a comprehensive list of requirements, see the `requirements.txt` file in the repository.
 
     ```bash
     pip install -r requirements.txt
     ```
 
-> [!TIP]
-> <b>Running out of disk space?</b>
-> By default, pytorch installs both GPU and CPU related packages.
-> This repo does not require a GPU and hence, will only make use of the CPU related packages.
-> By running the below install command, you will only install the CPU related packages and save approximately 1.5GB of disk space.
-> This command is optional and if run, should be run prior to the above install command.
-> ```bash
-> pip install torch --index-url https://download.pytorch.org/whl/cpu
-> ```
+
 
 
 ### View & Execute The Samples
