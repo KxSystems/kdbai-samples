@@ -10,8 +10,8 @@ Welcome to the KDB.AI course! This course combines custom content with existing 
 
 2. Advanced Search Techniques
    - [Hybrid Search](../hybrid_search/hybrid_search_inflation.ipynb)
-   - [Temporal Similarity Search (Non-Transformed)](../TSS_non_transformed/Temporal_Similarity_Search_Non-Transformed.ipynb)
-   - [Temporal Similarity Search (Transformed)](../TSS_transformed/Temporal_Similarity_Search_Transformed.ipynb)
+   - [Temporal Similarity Search (Non-Transformed)](../TSS_non_transformed/Temporal_Similarity_Search_Non-Transformed_Demo.ipynb)
+   - [Temporal Similarity Search (Transformed)](../TSS_transformed/Temporal_Similarity_Search_Transformed_Demo.ipynb)
 
 3. Retrieval Augmented Generation
    - [RAG Example](./course_specific_content/rag_example.ipynb)

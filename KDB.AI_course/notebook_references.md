@@ -19,8 +19,8 @@ These notebooks are referenced from other parts of the repository:
 | Course Section | Notebook Name | Location | Description |
 |----------------|---------------|----------|-------------|
 | Advanced Search Techniques | Hybrid Search | [/hybrid_search/hybrid_search_inflation.ipynb](../hybrid_search/hybrid_search_inflation.ipynb) | Demonstrates hybrid search techniques using inflation data |
-| Advanced Search Techniques | Temporal Similarity Search (Non-Transformed) | [/TSS_non_transformed/Temporal_Similarity_Search_Non-Transformed.ipynb](../TSS_non_transformed/Temporal_Similarity_Search_Non-Transformed.ipynb) | Covers non-transformed temporal similarity search |
-| Advanced Search Techniques | Temporal Similarity Search (Transformed) | [/TSS_transformed/Temporal_Similarity_Search_Transformed.ipynb](../TSS_transformed/Temporal_Similarity_Search_Transformed.ipynb) | Explores transformed temporal similarity search |
+| Advanced Search Techniques | Temporal Similarity Search (Non-Transformed) | [/TSS_non_transformed/Temporal_Similarity_Search_Non-Transforme_Demod.ipynb](../TSS_non_transformed/Temporal_Similarity_Search_Non-Transformed.ipynb) | Covers non-transformed temporal similarity search |
+| Advanced Search Techniques | Temporal Similarity Search (Transformed) | [/TSS_transformed/Temporal_Similarity_Search_Transformed_Demo.ipynb](../TSS_transformed/Temporal_Similarity_Search_Transformed.ipynb) | Explores transformed temporal similarity search |
 
 ## Additional Resources
 
@@ -35,4 +35,3 @@ These notebooks, while not directly part of the course, provide valuable supplem
 ## Maintenance Notes
 
 - This file should be updated whenever notebooks are added, removed, or relocated within the course or the main repository.
-- Ensure all relative paths are correct and functional.
