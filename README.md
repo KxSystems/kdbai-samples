@@ -51,6 +51,7 @@ At this time, the repository contains the following samples:
 - [Multimodal RAG Unified Text](multimodal_RAG_unified_text): Multimodal RAG with images descriptions and text.
 - [Recommendation System](music_recommendation): Music Recommendation on Spotify Data.
 - [Pattern Matching](pattern_matching): Pattern Matching on Sensor Data.
+- [qFlat Index](qFlat_index_pdf_search): Document search using KDB.AI's qFlat on-disk index.
 - [Retreival Augmented Generation with LangChain](retrieval_augmented_generation): Retrieval Augmented Generation (RAG) with LangChain.
 - [Retreival Augmented Generation Evaluation with LangChain](retrieval_augmented_generation_evaluation): Retrieval Augmented Generation (RAG) Evaluation with LangChain.
 - [Sentiment Analysis](sentiment_analysis): Sentiment Analysis on Disneyland Resort Reviews.
@@ -60,6 +61,7 @@ At this time, the repository contains the following samples:
 
 - [ChatGPT Retrieval Plugin](https://github.com/KxSystems/chatgpt-retrieval-plugin/blob/KDB.AI/examples/providers/kdbai/ChatGPT_QA_Demo.ipynb): Example showing a question and answer session using a ChatGPT retrieval plugin using KDB.AI Vector Database.
 - [Langchain](https://github.com/KxSystems/langchain/blob/KDB.AI/docs/docs/integrations/vectorstores/kdbai.ipynb): Example showing a question and answer session using a Langchain integration with the KDB.AI Vector Database.
+- [LlamaIndex](https://docs.llamaindex.ai/en/stable/api_reference/storage/vector_store/kdbai/): KDB.AI integrates with the LlamaIndex framework for working with LLMs.
 
 
 ## Setup
