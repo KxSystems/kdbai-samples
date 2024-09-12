@@ -14,7 +14,7 @@ You can signup at the links above and see the notebooks for connection inctructi
 
 ## What is KDB.AI?
 
-KDB.AI is a time-based vector database that allows developers to build scalable, reliable, and real-time applications by providing advanced search, recommendation, and personalization for Generative AI applications. KDB.AI is a key component of full-stack Generative AI applications that use Retrieval Augmented Generation (RAG).
+KDB.AI is a vector database with time-series capabilities that allows developers to build scalable, reliable, and real-time applications by providing advanced search, recommendation, and personalization for Generative AI applications. KDB.AI is a key component of full-stack Generative AI applications that use Retrieval Augmented Generation (RAG).
 
 Built by KX, the creators of kdb+, KDB.AI provides users with the ability to combine unstructured vector embedding data with structured time-series datasets to allow for hybrid use-cases which benefit from the rigor of conventional time-series data analytics and the usage patterns provided by vector databases within the Generative AI space.
 
@@ -42,6 +42,7 @@ At this time, the repository contains the following samples:
 - [TSS_non_transformed](TSS_non_transformed): Temporal Similarity Search (Non Transformed) time series search.
 - [TSS_transformed](TSS_transformed): Temporal Similarity Search (Transformed) for time series search. 
 - [LlamaIndex Advanced RAG](LlamaIndex_advanced_RAG): Demonstration on how to use LlamaIndex with KDB.AI for RAG.
+- [LlamaIndex Samples](LlamaIndex_samples): Hybrid Search, Multimodal RAG, and Multi Query Retriever LlamaIndex Samples.
 - [LlamaParse PDF RAG](LlamaParse_pdf_RAG): Use LlamaParse to extract embedded elements from a PDF and build a RAG pipeline.
 - [Document Search](document_search): Semantic Search on PDF Documents.
 - [Hybrid Search](hybrid_search): Combine dense and sparse search to improve accuracy.
