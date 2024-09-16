@@ -23,7 +23,7 @@ Built by KX, the creators of kdb+, KDB.AI provides users with the ability to com
 
 KDB.AI supports the following feature set:
 
-- Multiple index types: Flat, IVF, IVFPQ and HNSW.
+- Multiple index types: Flat, qFlat, IVF, IVFPQ, HNSW and qHnsw.
 - Multiple distance metrics: Euclidean, Inner-Product, Cosine.
 - Top-N and metadata filtered retrieval
 - Python and REST Interfaces
@@ -48,11 +48,13 @@ At this time, the repository contains the following samples:
 - [Hybrid Search](hybrid_search): Combine dense and sparse search to improve accuracy.
 - [Image Search](image_search): Image Search on Brain MRI Scans.
 - [Metadata Filtering](metadata_filtering): Metadata Filtering to increase search speed and accuracy.
+- [Fuzzy Filtering](fuzzy_filtering_on_metadata): Fuzzy Filtering to handle typos, international spelling difference, etc upon metadata columns. 
 - [Multimodal RAG ImageBind](multimodal_RAG_ImageBind): Multimodal RAG with images and text.
 - [Multimodal RAG Unified Text](multimodal_RAG_unified_text): Multimodal RAG with images descriptions and text.
 - [Recommendation System](music_recommendation): Music Recommendation on Spotify Data.
 - [Pattern Matching](pattern_matching): Pattern Matching on Sensor Data.
 - [qFlat Index](qFlat_index_pdf_search): Document search using KDB.AI's qFlat on-disk index.
+- [qHnsw Index](qHnsw_index_pdf_search): Document search using KDB.AI's qHnsw on-disk index.
 - [Retreival Augmented Generation with LangChain](retrieval_augmented_generation): Retrieval Augmented Generation (RAG) with LangChain.
 - [Retreival Augmented Generation Evaluation with LangChain](retrieval_augmented_generation_evaluation): Retrieval Augmented Generation (RAG) Evaluation with LangChain.
 - [Sentiment Analysis](sentiment_analysis): Sentiment Analysis on Disneyland Resort Reviews.
