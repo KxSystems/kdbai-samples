@@ -49,6 +49,7 @@ At this time, the repository contains the following samples:
 - [Image Search](image_search): Image Search on Brain MRI Scans.
 - [Metadata Filtering](metadata_filtering): Metadata Filtering to increase search speed and accuracy.
 - [Fuzzy Filtering](fuzzy_filtering_on_metadata): Fuzzy Filtering to handle typos, international spelling difference, etc upon metadata columns. 
+- [Multi-Index Search](multi_index_multimodal_search): Use KDB.AI's multiple index search capability for multimodal retrieval.
 - [Multimodal RAG ImageBind](multimodal_RAG_ImageBind): Multimodal RAG with images and text.
 - [Multimodal RAG Unified Text](multimodal_RAG_unified_text): Multimodal RAG with images descriptions and text.
 - [Recommendation System](music_recommendation): Music Recommendation on Spotify Data.
