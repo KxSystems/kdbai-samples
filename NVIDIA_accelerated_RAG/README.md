@@ -5,7 +5,7 @@
 We are planning to implement a similar architecture using both structured and unstructured data with database provided by KX and the NVIDIA AI software stack:
 
  
-![image.png](attachment:image.png)
+![NVIDIA Accelerated Multimodal RAG Architecture](/images/architecture.png)
 
 
 ## How is it a differentiator in modern GenAI arena?
@@ -16,7 +16,7 @@ Utilizing the latest LLM models like Llama-3.1 8B and 70B models as well as enri
 All of the above are packed with performance as they maximize the use of the latest and most advanced NVIDIA GPU’s which are aided by NVIDIA software stack of NeMO Retriever, RAPIDS, Nemo Customizer and NIM LLM’s to deliver a seamless experience in terms of time for retrieval and generation of results which is beyond comparison and provides a massive boost to get customers far ahead of any competitors leveraging the above.
 Clearly it provides a cutting edge and is the need of the hour in the growing AI industry and drastically proves to be a game-changer when considering a futuristic view migrating from the existing legacy CPU based architecture to the modern and advanced GPU based workflow utilizing our KDB.AI vector DB alongside NVIDIA technology stack.
 
-![image-2.png](attachment:image-2.png)
+![NIM Architecture](/images/NIM_architecture.png)
  
 ## Workflow
 
@@ -28,14 +28,14 @@ It includes flow of 2 different types of data being processed:
 Both the structured and unstructured data are ingested into the respective DB’s using NVIDIA RAPIDS, while for Data Loading & ETL for structured data we use cuDF and Apache Spark alongside RAFT for ML based analysys, the vector DB utilizes cuVS from the RAPIDS framework.
 For any Graph analytics along side model training and fine-tuning for ML and deep learning, we utilize the cuML, cuGraph and Apache Spark ML Accelarator.
 
-![image-8.png](attachment:image-8.png)
+![RAPIDS Framework](/images/RAPIDS_framework.png)
 
 RAPIDS makes accelerated computing more seamless while enabling specialization for lightning-fast end-to-end performance on GPU’s which is almost 70 times faster than a similar CPU Configuration with parallel operation over thousands of threads as required and hence massively boosting our process computation and performance.
 
 ### Embedding Creation:
 For the unstructured data, we use the NVIDIA NeMo Retriever Embedding NIM microservices and leverage the NV-EmbedQA-E5-v5 embedding model to encode and create vector embeddings from the documents, text, images and reports and store into the KDB.AI vector DB.
 
-![image-9.png](attachment:image-9.png)
+![NVIDIA NeMo Retriever NIM](/images/NeMo_Retriever.png)
 
  
 
@@ -46,19 +46,19 @@ These microservices are built on top of CUDA, NVIDIA TensorRT, NVIDIA Triton Inf
 ### Deploying and using LLMs:
 Using the NIM LLM Microservice we have deployed Llama-3 as well as Llama-3.1 8B and 70B models to be used for the Advanced RAG application.
 
-![image-10.png](attachment:image-10.png)
-![image-11.png](attachment:image-11.png)
+![LLM stack](/images/NVIDIA_NIM_stack.png)
+![LLM Deployment Layers](/images/LLM_deployment_layers.png)
 
 ### Fine-Tune and Align LLMs:
 As large language models (LLMs) continue to gain traction in enterprise AI applications, the demand for custom models that can understand and integrate specific industry terminology, domain expertise, and unique organizational requirements has become increasingly important. To achieve the same we have used NeMo Customizer which is a high-performance, scalable microservice that simplifies the fine tuning and alignment of our LLM’s.
 Using two of the popular parameter-efficient fine-tuning (PEFT) techniques, low-rank adaptation (LoRA) and P-tuning, it accelerates the training performance using parallelism techniques, and scales to multi-GPU and multinodes. We have used the same to fine tune our Llama-3 as well as Llama-3.1 8B & 70B and Mixtral 8x22b LLM’s for our domain-specific use-cases.
 
-![image-12.png](attachment:image-12.png)
+![NeMo Customizer](/images/finetuning_architecture_LoRA.jpg)
  
 
 ### Advanced RAG Application - KX Assistant:
 
-![image-3.png](attachment:image-3.png)                   
+![KX Assistant](/images/KX_Assistant.png)                   
 
 •	Using the NIM (Llama 3/Mixtral) LLM fine-tuned with NeMo Customizer, performed Advanced RAG usage for Q&A.
 •	Embeddings from 2 million documents from financial markets related to trading using NeMO Retriever NV-EmbedQA-E5-v5 embedding model.
@@ -66,7 +66,7 @@ Using two of the popular parameter-efficient fine-tuning (PEFT) techniques, low-
 •	100% GPU utilization of the NVIDIA GH 200 GPU.
 •	Reduced power consumption of only 298 W out of 900 W (33% usage).
 
-![image-4.png](attachment:image-4.png)
+![power_usage.png](/images/power_usage.png)
 
 ### KX Assistant - Interactive RAG
 
