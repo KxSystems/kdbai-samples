@@ -13,9 +13,13 @@ We are planning to implement a similar architecture using both structured and un
 ## How is it a differentiator in modern GenAI arena?
 
 This architecture is an advanced depiction of processing domain specific data through modern high-end GPU’s (as compared to orthodox CPU setup), along-side customizing and fine-tuning the ML models and LLM’s according to individual/firm-based demand, thus providing unmatched performance and accuracy which is not possible through the generic models available in the market.
+
 While plethora of implementations include processing of small sets of data and documents which might not be relevant to any particular industry and preforming a simple Q&A over the same, we have been able to demonstrate an Advanced RAG application capable of creating and ingesting vector embeddings from over 2 million documents into the KDB.AI vector DB.
+
 Utilizing the latest LLM models like Llama-3.1 8B and 70B models as well as enriching them with the most advanced NVIDIA technology suite, our application has been able to provide most accurate and interactive answers to complex user queries all based on the ingested dataset which makes the results highly relevant and specific to the domain requirements.
+
 All of the above are packed with performance as they maximize the use of the latest and most advanced NVIDIA GPU’s which are aided by NVIDIA software stack of NeMO Retriever, RAPIDS, Nemo Customizer and NIM LLM’s to deliver a seamless experience in terms of time for retrieval and generation of results which is beyond comparison and provides a massive boost to get customers far ahead of any competitors leveraging the above.
+
 Clearly it provides a cutting edge and is the need of the hour in the growing AI industry and drastically proves to be a game-changer when considering a futuristic view migrating from the existing legacy CPU based architecture to the modern and advanced GPU based workflow utilizing our KDB.AI vector DB alongside NVIDIA technology stack.
 
 ![NIM Architecture](./images/NIM_architecture.png)
