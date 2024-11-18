@@ -28,7 +28,7 @@ It includes flow of 2 different types of data being processed:
 Both the structured and unstructured data are ingested into the respective DB’s using NVIDIA RAPIDS, while for Data Loading & ETL for structured data we use cuDF and Apache Spark alongside RAFT for ML based analysys, the vector DB utilizes cuVS from the RAPIDS framework.
 For any Graph analytics along side model training and fine-tuning for ML and deep learning, we utilize the cuML, cuGraph and Apache Spark ML Accelarator.
 
-![RAPIDS Framework](./images/RAPIDS_framework.png)
+![RAPIDS Framework](./images/RAPIDS_framework.JPG)
 
 RAPIDS makes accelerated computing more seamless while enabling specialization for lightning-fast end-to-end performance on GPU’s which is almost 70 times faster than a similar CPU Configuration with parallel operation over thousands of threads as required and hence massively boosting our process computation and performance.
 
@@ -46,8 +46,7 @@ These microservices are built on top of CUDA, NVIDIA TensorRT, NVIDIA Triton Inf
 ### Deploying and using LLMs:
 Using the NIM LLM Microservice we have deployed Llama-3 as well as Llama-3.1 8B and 70B models to be used for the Advanced RAG application.
 
-![LLM stack](./images/NVIDIA_NIM_stack.png)
-![LLM Deployment Layers](./images/LLM_deployment_layers.png)
+![LLM stack](./images/NIM_LLM_Deployment.JPG)
 
 ### Fine-Tune and Align LLMs:
 As large language models (LLMs) continue to gain traction in enterprise AI applications, the demand for custom models that can understand and integrate specific industry terminology, domain expertise, and unique organizational requirements has become increasingly important. To achieve the same we have used NeMo Customizer which is a high-performance, scalable microservice that simplifies the fine tuning and alignment of our LLM’s.
@@ -58,7 +57,7 @@ Using two of the popular parameter-efficient fine-tuning (PEFT) techniques, low-
 
 ### Advanced RAG Application - KX Assistant:
 
-![KX Assistant](./images/KX_Assistant.png)                   
+![KX Assistant](./images/assistant.JPG)                   
 
 •	Using the NIM (Llama 3/Mixtral) LLM fine-tuned with NeMo Customizer, performed Advanced RAG usage for Q&A.
 •	Embeddings from 2 million documents from financial markets related to trading using NeMO Retriever NV-EmbedQA-E5-v5 embedding model.
@@ -66,7 +65,7 @@ Using two of the popular parameter-efficient fine-tuning (PEFT) techniques, low-
 •	100% GPU utilization of the NVIDIA GH 200 GPU.
 •	Reduced power consumption of only 298 W out of 900 W (33% usage).
 
-![power_usage.png](./images/power_usage.png)
+![power_usage.png](./images/power_usage.JPG)
 
 ### KX Assistant - Interactive RAG
 
@@ -424,24 +423,43 @@ There are additional deployment of the applications and use-cases.
 #### Other Useful Links
 
 •	https://developer.nvidia.com/blog/translate-your-enterprise-data-into-actionable-insights-with-nvidia-nemo-retriever/
+
 •	https://rapids.ai/
+
 •	https://rapids.ai/cuvs
+
 •	https://rapids.ai/raft
+
 •	https://github.com/rapidsai
+
 •	https://github.com/rapidsai-community/notebooks-contrib
+
 •	https://developer.nvidia.com/blog/fine-tune-and-align-llms-easily-with-nvidia-nemo-customizer/
+
 •	https://docs.nvidia.com/nim/large-language-models/latest/introduction.html
+
 •	https://docs.nvidia.com/nim/large-language-models/latest/getting-started.html
+
 •	https://docs.nvidia.com/cuda/cuda-installation-guide-linux/
+
 •	https://developer.nvidia.com/cuda-downloads
+
 •	https://docs.nvidia.com/deploy/driver-persistence/index.html
+
 •	https://docs.nvidia.com/datacenter/tesla/pdf/fabric-manager-user-guide.pdf
+
 •	https://docs.docker.com/engine/install/ubuntu/
+
 •	https://docs.docker.com/engine/install/linux-postinstall/
+
 •	https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html
+
 •	https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html
+
 •	https://jupyterlab.readthedocs.io/en/stable/getting_started/starting.html
+
 •	https://docs.ngc.nvidia.com/cli/cmd.html
+
 •	https://org.ngc.nvidia.com/setup/installers/cli
 
 
