@@ -5,7 +5,7 @@
 We are planning to implement a similar architecture using both structured and unstructured data with database provided by KX and the NVIDIA AI software stack:
 
  
-![NVIDIA Accelerated Multimodal RAG Architecture](/images/architecture.png)
+![NVIDIA Accelerated Multimodal RAG Architecture](./images/architecture.png)
 
 
 ## How is it a differentiator in modern GenAI arena?
