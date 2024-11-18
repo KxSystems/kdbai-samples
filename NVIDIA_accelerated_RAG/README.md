@@ -1,5 +1,7 @@
 # KX NVIDIA MULTIMODAL RAG
 
+For step-by-step setup instructions, scroll down to the **Setup** section.
+
 ## Architecture
 
 We are planning to implement a similar architecture using both structured and unstructured data with database provided by KX and the NVIDIA AI software stack:
@@ -60,9 +62,13 @@ Using two of the popular parameter-efficient fine-tuning (PEFT) techniques, low-
 ![KX Assistant](./images/assistant.JPG)                   
 
 •	Using the NIM (Llama 3/Mixtral) LLM fine-tuned with NeMo Customizer, performed Advanced RAG usage for Q&A.
+
 •	Embeddings from 2 million documents from financial markets related to trading using NeMO Retriever NV-EmbedQA-E5-v5 embedding model.
+
 •	The creation of embeddings and the ingestion was completed in 1 hour 20 mins using NVIDIA Rapids & KDB.AI in comparison to 40+ hours on CPU.
+
 •	100% GPU utilization of the NVIDIA GH 200 GPU.
+
 •	Reduced power consumption of only 298 W out of 900 W (33% usage).
 
 ![power_usage.png](./images/power_usage.JPG)
@@ -88,16 +94,17 @@ Specifically, Nemo Retriever is a GPU-accelerated retrieval model that enables e
 Nemo Retriever uses a combination of neural networks and indexing techniques to achieve fast and accurate retrieval. It's particularly useful in applications such as question answering, text classification, and information retrieval, where rapid access to relevant information is critical. Some key benefits of Nemo Retriever include speed, accuracy and scalability with potential use cases such as Virtual Assistants, Search Engine, Chatbots and Knowledge Graph applications.
 
 ### NVIDIA RAPIDS, CUVS, RAFT
-NVIDIA Rapids is an open-source software framework developed by Nvidia that enables data scientists and engineers to accelerate their data science and machine learning workflows using NVIDIA GPUs. Rapids is designed to provide a seamless and efficient way to process and analyze large datasets, leveraging the parallel processing capabilities of NVIDIA GPUs.
+
+**NVIDIA Rapids** is an open-source software framework developed by Nvidia that enables data scientists and engineers to accelerate their data science and machine learning workflows using NVIDIA GPUs. Rapids is designed to provide a seamless and efficient way to process and analyze large datasets, leveraging the parallel processing capabilities of NVIDIA GPUs.
 Rapids is built on top of the CUDA programming model and provides a set of libraries and tools that allow users to accelerate various stages of the data science workflow, including data ingestion, data processing, ML and data visualization. It provides a Python API, making it easy to integrate with popular data science libraries and frameworks, such as Pandas, NumPy, and scikit-learn.
 Key benefits are accelerated performance, scalability and ease of use. It is widely applied to various industries including finance, healthcare, retail and scientific research.
 
 
-CUVS (CUDA Unified Virtualized Scheduler) is a component of the Rapids ecosystem, which is an open-source software platform for accelerating data science and machine learning workloads on NVIDIA GPUs. CUVS is a scheduler that enables multiple processes to share the same GPU, improving GPU utilization and reducing the overhead of context switching between different processes. 
+**CUVS (CUDA Unified Virtualized Scheduler)** is a component of the Rapids ecosystem, which is an open-source software platform for accelerating data science and machine learning workloads on NVIDIA GPUs. CUVS is a scheduler that enables multiple processes to share the same GPU, improving GPU utilization and reducing the overhead of context switching between different processes. 
 It provides a unified scheduling mechanism for CUDA, cuDNN, and other NVIDIA libraries, allowing multiple applications to share the GPU without the need for explicit synchronization or coordination which is achieved by virtualizing the CPUs, scheduling workloads and managing memory. It includes other tools and libraries like cuDF, cuML, and cuGraph, all designed to accelerate the GPUs.
 
 
-RAFT (Reusable Accelerated Functions and Tools) contains fundamental widely-used algorithms and primitives for machine learning and information retrieval. The algorithms are CUDA-accelerated and form building blocks for more easily writing high performance applications. It accelerates the algorithm construction time, reduces the maintenance burden by maximizing reuse across projects, and centralizes core reusable computations, allowing future optimizations to benefit all algorithms that use them.
+**RAFT (Reusable Accelerated Functions and Tools)** contains fundamental widely-used algorithms and primitives for machine learning and information retrieval. The algorithms are CUDA-accelerated and form building blocks for more easily writing high performance applications. It accelerates the algorithm construction time, reduces the maintenance burden by maximizing reuse across projects, and centralizes core reusable computations, allowing future optimizations to benefit all algorithms that use them.
 Raft is used as the consensus algorithm for distributed training and inference in machine learning and deep learning applications. This allows to scale to large clusters of GPUs and ensure that the system remains available and fault-tolerant even in the presence of node failures.
 
 ### NeMo Customizer
@@ -105,7 +112,7 @@ NeMo Customizer is an end-to-end platform for developing custom generative AI in
 Built on top of the NeMo framework it provides the easiest path for enterprises to get started with fine-tuning LLMs, thereby facilitating a fast, cost-effective way to adopt generative AI. NeMo Customizer simplifies LLM customization by leveraging the quickly deployable microservices, accelerates training performance using parallelism techniques, and scales to multi-GPU and multinodes. Benefits include faster time to market, accelerated performance and scalability.
 
 ### NVIDIA NIM for LLMs
-NVIDIA NIM (NVIDIA Inference Manager) is a software development kit (SDK) designed to optimize and manage AI inference workloads on NVIDIA GPUs. It provides a set of tools and APIs that enable developers to deploy, manage, and optimize AI models on NVIDIA hardware, ensuring efficient and scalable inference performance.
+**NVIDIA NIM (NVIDIA Inference Manager)** is a software development kit (SDK) designed to optimize and manage AI inference workloads on NVIDIA GPUs. It provides a set of tools and APIs that enable developers to deploy, manage, and optimize AI models on NVIDIA hardware, ensuring efficient and scalable inference performance.
 NIM is part of the NVIDIA TensorRT (Tensor Runtime) platform, which is a software development kit for high-performance AI inference NIM provides several key features to optimize AI inference workloads, including model optimization, model management, interference engine, resource management and scalability.
 NVIDIA NIM for large language models (LLMs) brings the power of state-of-the-art LLMs to enterprise applications, providing unmatched natural language processing and understanding capabilities. It provides high performance features like scalable deployment, advanced language model, flexible integration and enterprise grade security.
 
@@ -113,23 +120,41 @@ NVIDIA NIM for large language models (LLMs) brings the power of state-of-the-art
 ## Setup
 
 We have created the advanced RAG notebook and application while going through all the below steps:
+
 •	Hardware used in RAG – NVIDIA H100 8-way GPU server
+
 •	Pre-requisites
+
 •	CUDA Toolkit
+
 •	CUDA Drivers
+
 •	Define Environment Variables
+
 •	NVIDIA Persistence Daemon (nvidia-smi)
+
 •	NVIDIA Fabric Manager for NV Switch and NV Link
+
 •	NVIDIA Container Toolkit
+
 •	Docker Installation & Configuration
+
 •	NGC CLI Toolkit and Configuration
+
 •	NIM Llama3 8b Container Deployment
+
 •	NIM Llama3 70b Container Deployment
+
 •	NeMo Retriver Mistral 7b model Deployment
+
 •	Python & Streamlit modules Installation
+
 •	NV Dashboards
+
 •	KX Assistant RAG Application
+
 •	Chatbot/Q&A Application integrated with NIM Llama3 8b and Llama3 70b
+
  
 ### Setup steps for the KX RAG with RAPIDS/NeMo/NIM
 
