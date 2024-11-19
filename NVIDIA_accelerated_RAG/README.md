@@ -1,4 +1,4 @@
-# KX NVIDIA MULTIMODAL RAG
+# KX NVIDIA Accelerated RAG
 
 For step-by-step setup instructions, scroll down to the **Setup** section.
 
