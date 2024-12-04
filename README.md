@@ -52,6 +52,7 @@ At this time, the repository contains the following samples:
 - [Multi-Index Search](multi_index_multimodal_search): Use KDB.AI's multiple index search capability for multimodal retrieval.
 - [Multimodal RAG ImageBind](multimodal_RAG_ImageBind): Multimodal RAG with images and text.
 - [Multimodal RAG Unified Text](multimodal_RAG_unified_text): Multimodal RAG with images descriptions and text.
+- [NVIDIA Accelerated RAG](NVIDIA_accelerated_RAG): RAG using KDB.AI server, NVIDIA Rapids, NIM, & NeMo.
 - [Recommendation System](music_recommendation): Music Recommendation on Spotify Data.
 - [Pattern Matching](pattern_matching): Pattern Matching on Sensor Data.
 - [qFlat Index](qFlat_index_pdf_search): Document search using KDB.AI's qFlat on-disk index.
