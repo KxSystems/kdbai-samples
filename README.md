@@ -60,6 +60,7 @@ At this time, the repository contains the following samples:
 - [Retreival Augmented Generation with LangChain](retrieval_augmented_generation): Retrieval Augmented Generation (RAG) with LangChain.
 - [Retreival Augmented Generation Evaluation with LangChain](retrieval_augmented_generation_evaluation): Retrieval Augmented Generation (RAG) Evaluation with LangChain.
 - [Sentiment Analysis](sentiment_analysis): Sentiment Analysis on Disneyland Resort Reviews.
+- [Video RAG](video_RAG): Multimodal RAG on Video using Voyage AI multimodal embeddings.
 
 
 ## What Platforms Does KDB.AI Integrate With?
